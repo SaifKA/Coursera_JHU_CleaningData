@@ -1,3 +1,6 @@
+## Data Transformation at different levels
+
+A simple transformation of data at different stages is illustrated below:
 
 
 
