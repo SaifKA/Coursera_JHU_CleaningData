@@ -1,5 +1,4 @@
-getwd()
-setwd("D://Shiny//Projects//3. Clean/")
+
 
 if (!dir.exists("data")){
   dir.create("data")
