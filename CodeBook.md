@@ -1,15 +1,38 @@
+# Code Book for Cleaning Data Assignment
+
+
 ## Data Transformation at different levels
 
-A simple transformation of data at different stages is illustrated below:
+Data transformation steps for this assignment is listed below:
 
+1. Raw dataframes created from raw data.
+   **activity_labels**: Activity label data
+   **features**: All feature variables
+   **test**: Test data set
+   **test_labels**: Dataframe with labels for test data 
+   **test_subjects**: Dataframe with subject/volunteer identification for test data
+   **train**: Training data set
+   **train_labels**: Dataframe with labels for train data 
+   **train_subjects**: Dataframe with subject/volunteer identification for train data
+   
+2. Dataframes containing relevant test and train data together
+   **test_1**: test, test_labels and test_subjects dataframes together
+   **train_1**: train, train_labels and train_subjects dataframes together
+   
+3. **mergeData**: Combined test_1 and train_1 datasets
 
+4.  **mean_std_Data**: Dataframe containing only measurements with mean (including mean frequency) and standard deviation
+
+5. **Final_raw_data**: Data with descriptive activity names (Step-1 ;taken from activity_labels data frame) and descriptive variable names (Step-2)
+
+6. **Final_tidy_data**:Tidy data with mean calculated for all variables by each activity and subject
 
 ## Variable Description
 
 The following table desribes each variable. The table was generated with the excellent markdown table generator [here](http://jakebathman.github.io/Markdown-Table-Generator/) by Jake Bathman.
 
 **Descriptive Name**|**Description**
-:-----:|:-----:
+:-----|:-----
 activity|Activity identification among six different activities
 subject|Volunteer identification among 30 different volunteers within age bracket of 19-48 years
 time_domain_body_acceleration_mean_X_Axis|mean value of time domain signal captured from linear body acceleration in X-Axis
