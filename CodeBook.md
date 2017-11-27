@@ -1,6 +1,9 @@
+
+
+
 ## Variable Description
 
-The following table desribes each variable. The table was generated with the excellent markdown table generator ![here](http://jakebathman.github.io/Markdown-Table-Generator/) by Jake Bathman.
+The following table desribes each variable. The table was generated with the excellent markdown table generator [here](http://jakebathman.github.io/Markdown-Table-Generator/) by Jake Bathman.
 
 **Descriptive Name**|**Description**
 :-----:|:-----:
@@ -89,7 +92,7 @@ frequency_domain_body_gyroscope_jerk_magnitude_reading_mean_frequency|mean frequ
 
 ## Variable Details
 
-Variable details 
+Variable details generated with the help of excellent [memisc package](https://cran.r-project.org/web/packages/memisc/index.html).
 
 =================================================================================
 
