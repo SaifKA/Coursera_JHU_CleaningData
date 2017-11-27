@@ -1,5 +1,7 @@
 
-|A   |B   |C   | 
+| A   | B   | C   |
+| --- | --- | --- |
+| B   | C   | D   |
 
 ## Variable Details
 
