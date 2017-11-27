@@ -1,88 +1,95 @@
+## Variable Description
 
-**Raw File Feature Name**|**Descriptive Name**|**Description**
-:-----:|:-----:|:-----:
-activity|activity|Activity identification among six different activities
-subject|subject|Volunteer identification among 30 different volunteers within age bracket of 19-48 years
-tBodyAcc-mean()-X|time_domain_body_acceleration_mean_X_Axis|mean value of time domain signal captured from linear body acceleration in X-Axis
-tBodyAcc-mean()-Y|time_domain_body_acceleration_mean_Y_Axis|mean value of time domain signal captured from linear body acceleration in Y-Axis
-tBodyAcc-mean()-Z|time_domain_body_acceleration_mean_Z_Axis|mean value of time domain signal captured from linear body acceleration in Z-Axis
-tBodyAcc-std()-X|time_domain_body_acceleration_standard_deviation_X_Axis|standard deviation value of time domain signal captured from linear body acceleration in X-Axis
-tBodyAcc-std()-Y|time_domain_body_acceleration_standard_deviation_Y_Axis|standard deviation value of time domain signal captured from linear body acceleration in Y-Axis
-tBodyAcc-std()-Z|time_domain_body_acceleration_standard_deviation_Z_Axis|standard deviation value of time domain signal captured from linear body acceleration in Z-Axis
-tGravityAcc-mean()-X|time_domain_gravity_acceleration_mean_X_Axis|mean value of time domain signal captured from gravity acceleration in X-Axis
-tGravityAcc-mean()-Y|time_domain_gravity_acceleration_mean_Y_Axis|mean value of time domain signal captured from gravity acceleration in Y-Axis
-tGravityAcc-mean()-Z|time_domain_gravity_acceleration_mean_Z_Axis|mean value of time domain signal captured from gravity acceleration in Z-Axis
-tGravityAcc-std()-X|time_domain_gravity_acceleration_standard_deviation_X_Axis|standard deviation value of time domain signal captured from gravity acceleration in X-Axis
-tGravityAcc-std()-Y|time_domain_gravity_acceleration_standard_deviation_Y_Axis|standard deviation value of time domain signal captured from gravity acceleration in Y-Axis
-tGravityAcc-std()-Z|time_domain_gravity_acceleration_standard_deviation_Z_Axis|standard deviation value of time domain signal captured from gravity acceleration in Z-Axis
-tBodyAccJerk-mean()-X|time_domain_body_acceleration_jerk_mean_X_Axis|mean value of time domain jerk signal captured from  body acceleration in X-Axis
-tBodyAccJerk-mean()-Y|time_domain_body_acceleration_jerk_mean_Y_Axis|mean value of time domain jerk signal captured from  body acceleration in Y-Axis
-tBodyAccJerk-mean()-Z|time_domain_body_acceleration_jerk_mean_Z_Axis|mean value of time domain jerk signal captured from  body acceleration in Z-Axis
-tBodyAccJerk-std()-X|time_domain_body_acceleration_jerk_standard_deviation_X_Axis|standard deviation value of time domain jerk signal captured from  body acceleration in X-Axis
-tBodyAccJerk-std()-Y|time_domain_body_acceleration_jerk_standard_deviation_Y_Axis|standard deviation value of time domain jerk signal captured from  body acceleration in Y-Axis
-tBodyAccJerk-std()-Z|time_domain_body_acceleration_jerk_standard_deviation_Z_Axis|standard deviation value of time domain jerk signal captured from  body acceleration in Z-Axis
-tBodyGyro-mean()-X|time_domain_body_gyroscope_reading_mean_X_Axis|mean value of time domain signal captured from angular body velocity in X-Axis
-tBodyGyro-mean()-Y|time_domain_body_gyroscope_reading_mean_Y_Axis|mean value of time domain signal captured from angular body velocity in Y-Axis
-tBodyGyro-mean()-Z|time_domain_body_gyroscope_reading_mean_Z_Axis|mean value of time domain signal captured from angular body velocity in Z-Axis
-tBodyGyro-std()-X|time_domain_body_gyroscope_reading_standard_deviation_X_Axis|standard deviation value of time domain signal captured from angular body velocity in X-Axis
-tBodyGyro-std()-Y|time_domain_body_gyroscope_reading_standard_deviation_Y_Axis|standard deviation value of time domain signal captured from angular body velocity in Y-Axis
-tBodyGyro-std()-Z|time_domain_body_gyroscope_reading_standard_deviation_Z_Axis|standard deviation value of time domain signal captured from angular body velocity in Z-Axis
-tBodyGyroJerk-mean()-X|time_domain_body_gyroscope_jerk_reading_mean_X_Axis|mean value of time domain jerk signal captured from  body velocity in X-Axis
-tBodyGyroJerk-mean()-Y|time_domain_body_gyroscope_jerk_reading_mean_Y_Axis|mean value of time domain jerk signal captured from  body velocity in Y-Axis
-tBodyGyroJerk-mean()-Z|time_domain_body_gyroscope_jerk_reading_mean_Z_Axis|mean value of time domain jerk signal captured from  body velocity in Z-Axis
-tBodyGyroJerk-std()-X|time_domain_body_gyroscope_jerk_reading_standard_deviation_X_Axis|standard deviation value of time domain jerk signal captured from  body velocity in X-Axis
-tBodyGyroJerk-std()-Y|time_domain_body_gyroscope_jerk_reading_standard_deviation_Y_Axis|standard deviation value of time domain jerk signal captured from  body velocity in Y-Axis
-tBodyGyroJerk-std()-Z|time_domain_body_gyroscope_jerk_reading_standard_deviation_Z_Axis|standard deviation value of time domain jerk signal captured from  body velocity in Z-Axis
-tBodyAccMag-mean()|time_domain_body_acceleration_magnitude_mean|mean value of time domain magnitude of body acceleration signals
-tBodyAccMag-std()|time_domain_body_acceleration_magnitude_standard_deviation|standard deviation value of time domain magnitude of body acceleration signals
-tGravityAccMag-mean()|time_domain_gravity_acceleration_magnitude_mean|mean value of time domain magnitude of gravity acceleration signals
-tGravityAccMag-std()|time_domain_gravity_acceleration_magnitude_standard_deviation|standard deviation value of time domain magnitude of gravity acceleration signals
-tBodyAccJerkMag-mean()|time_domain_body_gyroscope_jerk_magnitudereading_mean|mean value of time domain magnitude of body acceleration jerk signals
-tBodyAccJerkMag-std()|time_domain_body_gyroscope_jerk_magnitudereading_standard_deviation|standard deviation value of time domain magnitude of body acceleration jerk signals
-tBodyGyroMag-mean()|time_domain_body_gyroscope_magnitude_reading_mean|mean value of time domain magnitude of body anglular velocity signals
-tBodyGyroMag-std()|time_domain_body_gyroscope_magnitude_reading_standard_deviation|standard deviation value of time domain magnitude of body angular velocity signals
-tBodyGyroJerkMag-mean()|time_domain_body_gyroscope_jerk_magnitude_reading_mean|mean value of time domain magnitude of body anglular velocity jerk signals
-tBodyGyroJerkMag-std()|time_domain_body_gyroscope_jerk_magnitude_reading_standard_deviation|standard deviation value of time domain magnitude of body angular velocity jerk signals
-fBodyAcc-mean()-X|frequency_domain_body_acceleration_mean_X_Axis|mean value of frequency domain signal captured from linear body acceleration in X-Axis
-fBodyAcc-mean()-Y|frequency_domain_body_acceleration_mean_Y_Axis|mean value of frequency domain signal captured from linear body acceleration in Y-Axis
-fBodyAcc-mean()-Z|frequency_domain_body_acceleration_mean_Z_Axis|mean value of frequency domain signal captured from linear body acceleration in Z-Axis
-fBodyAcc-std()-X|frequency_domain_body_acceleration_standard_deviation_X_Axis|standard deviation value of frequency domain signal captured from linear body acceleration in X-Axis
-fBodyAcc-std()-Y|frequency_domain_body_acceleration_standard_deviation_Y_Axis|standard deviation value of frequency domain signal captured from linear body acceleration in Y-Axis
-fBodyAcc-std()-Z|frequency_domain_body_acceleration_standard_deviation_Z_Axis|standard deviation value of frequency domain signal captured from linear body acceleration in Z-Axis
-fBodyAcc-meanFreq()-X|frequency_domain_body_acceleration_mean_frequency_X_Axis|mean frequency of frequency domain signal captured from linear body acceleration in X-Axis
-fBodyAcc-meanFreq()-Y|frequency_domain_body_acceleration_mean_frequency_Y_Axis|mean frequency of frequency domain signal captured from linear body acceleration in Y-Axis
-fBodyAcc-meanFreq()-Z|frequency_domain_body_acceleration_mean_frequency_Z_Axis|mean frequency of frequency domain signal captured from linear body acceleration in Z-Axis
-fBodyAccJerk-mean()-X|frequency_domain_body_acceleration_jerk_mean_X_Axis|mean value of frequency domain jerk signal captured from  body acceleration in X-Axis
-fBodyAccJerk-mean()-Y|frequency_domain_body_acceleration_jerk_mean_Y_Axis|mean value of frequency domain jerk signal captured from  body acceleration in Y-Axis
-fBodyAccJerk-mean()-Z|frequency_domain_body_acceleration_jerk_mean_Z_Axis|mean value of frequency domain jerk signal captured from  body acceleration in Z-Axis
-fBodyAccJerk-std()-X|frequency_domain_body_acceleration_jerk_standard_deviation_X_Axis|standard deviation value of frequency domain jerk signal captured from  body acceleration in X-Axis
-fBodyAccJerk-std()-Y|frequency_domain_body_acceleration_jerk_standard_deviation_Y_Axis|standard deviation value of frequency domain jerk signal captured from  body acceleration in Y-Axis
-fBodyAccJerk-std()-Z|frequency_domain_body_acceleration_jerk_standard_deviation_Z_Axis|standard deviation value of frequency domain jerk signal captured from  body acceleration in Z-Axis
-fBodyAccJerk-meanFreq()-X|frequency_domain_body_acceleration_jerk_mean_frequency_X_Axis|mean frequency of frequency domain jerk signal captured from  body acceleration in X-Axis
-fBodyAccJerk-meanFreq()-Y|frequency_domain_body_acceleration_jerk_mean_frequency_Y_Axis|mean frequency of frequency domain jerk signal captured from  body acceleration in Y-Axis
-fBodyAccJerk-meanFreq()-Z|frequency_domain_body_acceleration_jerk_mean_frequency_Z_Axis|mean frequency of frequency domain jerk signal captured from  body acceleration in Z-Axis
-fBodyGyro-mean()-X|frequency_domain_body_gyroscope_reading_mean_X_Axis|mean value of frequency domain signal captured from angular body velocity in X-Axis
-fBodyGyro-mean()-Y|frequency_domain_body_gyroscope_reading_mean_Y_Axis|mean value of frequency domain signal captured from angular body velocity in Y-Axis
-fBodyGyro-mean()-Z|frequency_domain_body_gyroscope_reading_mean_Z_Axis|mean value of frequency domain signal captured from angular body velocity in Z-Axis
-fBodyGyro-std()-X|frequency_domain_body_gyroscope_reading_standard_deviation_X_Axis|standard deviation value of frequency domain signal captured from angular body velocity in X-Axis
-fBodyGyro-std()-Y|frequency_domain_body_gyroscope_reading_standard_deviation_Y_Axis|standard deviation value of frequency domain signal captured from angular body velocity in Y-Axis
-fBodyGyro-std()-Z|frequency_domain_body_gyroscope_reading_standard_deviation_Z_Axis|standard deviation value of frequency domain signal captured from angular body velocity in Z-Axis
-fBodyGyro-meanFreq()-X|frequency_domain_body_gyroscope_reading_mean_frequency_X_Axis|mean frequency of frequency domain signal captured from angular body velocity in X-Axis
-fBodyGyro-meanFreq()-Y|frequency_domain_body_gyroscope_reading_mean_frequency_Y_Axis|mean frequency of frequency domain signal captured from angular body velocity in Y-Axis
-fBodyGyro-meanFreq()-Z|frequency_domain_body_gyroscope_reading_mean_frequency_Z_Axis|mean frequency of frequency domain signal captured from angular body velocity in Z-Axis
-fBodyAccMag-mean()|frequency_domain_body_acceleration_magnitude_mean|mean value of frequency domain magnitude of body acceleration signals
-fBodyAccMag-std()|frequency_domain_body_acceleration_magnitude_standard_deviation|standard deviation value of frequency domain magnitude of body acceleration signals
-fBodyAccMag-meanFreq()|frequency_domain_body_acceleration_magnitude_mean_frequency|mean frequency of frequency domain magnitude of body acceleration signals
-fBodyBodyAccJerkMag-mean()|frequency_domain_body_gyroscope_jerk_magnitudereading_mean|mean value of frequency domain magnitude of body acceleration jerk signals
-fBodyBodyAccJerkMag-std()|frequency_domain_body_gyroscope_jerk_magnitudereading_standard_deviation|standard deviation value of frequency domain magnitude of body acceleration jerk signals
-fBodyBodyAccJerkMag-meanFreq()|frequency_domain_body_gyroscope_jerk_magnitudereading_mean_frequency|mean frequency of frequency domain magnitude of body acceleration jerk signals
-fBodyBodyGyroMag-mean()|frequency_domain_body_gyroscope_magnitude_reading_mean|mean value of frequency domain magnitude of body anglular velocity signals
-fBodyBodyGyroMag-std()|frequency_domain_body_gyroscope_magnitude_reading_standard_deviation|standard deviation value of frequency domain magnitude of body angular velocity signals
-fBodyBodyGyroMag-meanFreq()|frequency_domain_body_gyroscope_magnitude_reading_mean_frequency|mean frequency of frequency domain magnitude of body anglular velocity signals
-fBodyBodyGyroJerkMag-mean()|frequency_domain_body_gyroscope_jerk_magnitude_reading_mean|mean value of frequency domain magnitude of body anglular velocity jerk signals
-fBodyBodyGyroJerkMag-std()|frequency_domain_body_gyroscope_jerk_magnitude_reading_standard_deviation|standard deviation value of frequency domain magnitude of body angular velocity jerk signals
-fBodyBodyGyroJerkMag-meanFreq()|frequency_domain_body_gyroscope_jerk_magnitude_reading_mean_frequency|mean frequency of frequency domain magnitude of body anglular velocity jerk signals
+The following table desribes each variable. The table was generated with the excellent markdown table generator ![here](http://jakebathman.github.io/Markdown-Table-Generator/) by Jake Bathman.
+
+**Descriptive Name**|**Description**
+:-----:|:-----:
+activity|Activity identification among six different activities
+subject|Volunteer identification among 30 different volunteers within age bracket of 19-48 years
+time_domain_body_acceleration_mean_X_Axis|mean value of time domain signal captured from linear body acceleration in X-Axis
+time_domain_body_acceleration_mean_Y_Axis|mean value of time domain signal captured from linear body acceleration in Y-Axis
+time_domain_body_acceleration_mean_Z_Axis|mean value of time domain signal captured from linear body acceleration in Z-Axis
+time_domain_body_acceleration_standard_deviation_X_Axis|standard deviation value of time domain signal captured from linear body acceleration in X-Axis
+time_domain_body_acceleration_standard_deviation_Y_Axis|standard deviation value of time domain signal captured from linear body acceleration in Y-Axis
+time_domain_body_acceleration_standard_deviation_Z_Axis|standard deviation value of time domain signal captured from linear body acceleration in Z-Axis
+time_domain_gravity_acceleration_mean_X_Axis|mean value of time domain signal captured from gravity acceleration in X-Axis
+time_domain_gravity_acceleration_mean_Y_Axis|mean value of time domain signal captured from gravity acceleration in Y-Axis
+time_domain_gravity_acceleration_mean_Z_Axis|mean value of time domain signal captured from gravity acceleration in Z-Axis
+time_domain_gravity_acceleration_standard_deviation_X_Axis|standard deviation value of time domain signal captured from gravity acceleration in X-Axis
+time_domain_gravity_acceleration_standard_deviation_Y_Axis|standard deviation value of time domain signal captured from gravity acceleration in Y-Axis
+time_domain_gravity_acceleration_standard_deviation_Z_Axis|standard deviation value of time domain signal captured from gravity acceleration in Z-Axis
+time_domain_body_acceleration_jerk_mean_X_Axis|mean value of time domain jerk signal captured from  body acceleration in X-Axis
+time_domain_body_acceleration_jerk_mean_Y_Axis|mean value of time domain jerk signal captured from  body acceleration in Y-Axis
+time_domain_body_acceleration_jerk_mean_Z_Axis|mean value of time domain jerk signal captured from  body acceleration in Z-Axis
+time_domain_body_acceleration_jerk_standard_deviation_X_Axis|standard deviation value of time domain jerk signal captured from  body acceleration in X-Axis
+time_domain_body_acceleration_jerk_standard_deviation_Y_Axis|standard deviation value of time domain jerk signal captured from  body acceleration in Y-Axis
+time_domain_body_acceleration_jerk_standard_deviation_Z_Axis|standard deviation value of time domain jerk signal captured from  body acceleration in Z-Axis
+time_domain_body_gyroscope_reading_mean_X_Axis|mean value of time domain signal captured from angular body velocity in X-Axis
+time_domain_body_gyroscope_reading_mean_Y_Axis|mean value of time domain signal captured from angular body velocity in Y-Axis
+time_domain_body_gyroscope_reading_mean_Z_Axis|mean value of time domain signal captured from angular body velocity in Z-Axis
+time_domain_body_gyroscope_reading_standard_deviation_X_Axis|standard deviation value of time domain signal captured from angular body velocity in X-Axis
+time_domain_body_gyroscope_reading_standard_deviation_Y_Axis|standard deviation value of time domain signal captured from angular body velocity in Y-Axis
+time_domain_body_gyroscope_reading_standard_deviation_Z_Axis|standard deviation value of time domain signal captured from angular body velocity in Z-Axis
+time_domain_body_gyroscope_jerk_reading_mean_X_Axis|mean value of time domain jerk signal captured from  body velocity in X-Axis
+time_domain_body_gyroscope_jerk_reading_mean_Y_Axis|mean value of time domain jerk signal captured from  body velocity in Y-Axis
+time_domain_body_gyroscope_jerk_reading_mean_Z_Axis|mean value of time domain jerk signal captured from  body velocity in Z-Axis
+time_domain_body_gyroscope_jerk_reading_standard_deviation_X_Axis|standard deviation value of time domain jerk signal captured from  body velocity in X-Axis
+time_domain_body_gyroscope_jerk_reading_standard_deviation_Y_Axis|standard deviation value of time domain jerk signal captured from  body velocity in Y-Axis
+time_domain_body_gyroscope_jerk_reading_standard_deviation_Z_Axis|standard deviation value of time domain jerk signal captured from  body velocity in Z-Axis
+time_domain_body_acceleration_magnitude_mean|mean value of time domain magnitude of body acceleration signals
+time_domain_body_acceleration_magnitude_standard_deviation|standard deviation value of time domain magnitude of body acceleration signals
+time_domain_gravity_acceleration_magnitude_mean|mean value of time domain magnitude of gravity acceleration signals
+time_domain_gravity_acceleration_magnitude_standard_deviation|standard deviation value of time domain magnitude of gravity acceleration signals
+time_domain_body_gyroscope_jerk_magnitudereading_mean|mean value of time domain magnitude of body acceleration jerk signals
+time_domain_body_gyroscope_jerk_magnitudereading_standard_deviation|standard deviation value of time domain magnitude of body acceleration jerk signals
+time_domain_body_gyroscope_magnitude_reading_mean|mean value of time domain magnitude of body anglular velocity signals
+time_domain_body_gyroscope_magnitude_reading_standard_deviation|standard deviation value of time domain magnitude of body angular velocity signals
+time_domain_body_gyroscope_jerk_magnitude_reading_mean|mean value of time domain magnitude of body anglular velocity jerk signals
+time_domain_body_gyroscope_jerk_magnitude_reading_standard_deviation|standard deviation value of time domain magnitude of body angular velocity jerk signals
+frequency_domain_body_acceleration_mean_X_Axis|mean value of frequency domain signal captured from linear body acceleration in X-Axis
+frequency_domain_body_acceleration_mean_Y_Axis|mean value of frequency domain signal captured from linear body acceleration in Y-Axis
+frequency_domain_body_acceleration_mean_Z_Axis|mean value of frequency domain signal captured from linear body acceleration in Z-Axis
+frequency_domain_body_acceleration_standard_deviation_X_Axis|standard deviation value of frequency domain signal captured from linear body acceleration in X-Axis
+frequency_domain_body_acceleration_standard_deviation_Y_Axis|standard deviation value of frequency domain signal captured from linear body acceleration in Y-Axis
+frequency_domain_body_acceleration_standard_deviation_Z_Axis|standard deviation value of frequency domain signal captured from linear body acceleration in Z-Axis
+frequency_domain_body_acceleration_mean_frequency_X_Axis|mean frequency of frequency domain signal captured from linear body acceleration in X-Axis
+frequency_domain_body_acceleration_mean_frequency_Y_Axis|mean frequency of frequency domain signal captured from linear body acceleration in Y-Axis
+frequency_domain_body_acceleration_mean_frequency_Z_Axis|mean frequency of frequency domain signal captured from linear body acceleration in Z-Axis
+frequency_domain_body_acceleration_jerk_mean_X_Axis|mean value of frequency domain jerk signal captured from  body acceleration in X-Axis
+frequency_domain_body_acceleration_jerk_mean_Y_Axis|mean value of frequency domain jerk signal captured from  body acceleration in Y-Axis
+frequency_domain_body_acceleration_jerk_mean_Z_Axis|mean value of frequency domain jerk signal captured from  body acceleration in Z-Axis
+frequency_domain_body_acceleration_jerk_standard_deviation_X_Axis|standard deviation value of frequency domain jerk signal captured from  body acceleration in X-Axis
+frequency_domain_body_acceleration_jerk_standard_deviation_Y_Axis|standard deviation value of frequency domain jerk signal captured from  body acceleration in Y-Axis
+frequency_domain_body_acceleration_jerk_standard_deviation_Z_Axis|standard deviation value of frequency domain jerk signal captured from  body acceleration in Z-Axis
+frequency_domain_body_acceleration_jerk_mean_frequency_X_Axis|mean frequency of frequency domain jerk signal captured from  body acceleration in X-Axis
+frequency_domain_body_acceleration_jerk_mean_frequency_Y_Axis|mean frequency of frequency domain jerk signal captured from  body acceleration in Y-Axis
+frequency_domain_body_acceleration_jerk_mean_frequency_Z_Axis|mean frequency of frequency domain jerk signal captured from  body acceleration in Z-Axis
+frequency_domain_body_gyroscope_reading_mean_X_Axis|mean value of frequency domain signal captured from angular body velocity in X-Axis
+frequency_domain_body_gyroscope_reading_mean_Y_Axis|mean value of frequency domain signal captured from angular body velocity in Y-Axis
+frequency_domain_body_gyroscope_reading_mean_Z_Axis|mean value of frequency domain signal captured from angular body velocity in Z-Axis
+frequency_domain_body_gyroscope_reading_standard_deviation_X_Axis|standard deviation value of frequency domain signal captured from angular body velocity in X-Axis
+frequency_domain_body_gyroscope_reading_standard_deviation_Y_Axis|standard deviation value of frequency domain signal captured from angular body velocity in Y-Axis
+frequency_domain_body_gyroscope_reading_standard_deviation_Z_Axis|standard deviation value of frequency domain signal captured from angular body velocity in Z-Axis
+frequency_domain_body_gyroscope_reading_mean_frequency_X_Axis|mean frequency of frequency domain signal captured from angular body velocity in X-Axis
+frequency_domain_body_gyroscope_reading_mean_frequency_Y_Axis|mean frequency of frequency domain signal captured from angular body velocity in Y-Axis
+frequency_domain_body_gyroscope_reading_mean_frequency_Z_Axis|mean frequency of frequency domain signal captured from angular body velocity in Z-Axis
+frequency_domain_body_acceleration_magnitude_mean|mean value of frequency domain magnitude of body acceleration signals
+frequency_domain_body_acceleration_magnitude_standard_deviation|standard deviation value of frequency domain magnitude of body acceleration signals
+frequency_domain_body_acceleration_magnitude_mean_frequency|mean frequency of frequency domain magnitude of body acceleration signals
+frequency_domain_body_gyroscope_jerk_magnitudereading_mean|mean value of frequency domain magnitude of body acceleration jerk signals
+frequency_domain_body_gyroscope_jerk_magnitudereading_standard_deviation|standard deviation value of frequency domain magnitude of body acceleration jerk signals
+frequency_domain_body_gyroscope_jerk_magnitudereading_mean_frequency|mean frequency of frequency domain magnitude of body acceleration jerk signals
+frequency_domain_body_gyroscope_magnitude_reading_mean|mean value of frequency domain magnitude of body anglular velocity signals
+frequency_domain_body_gyroscope_magnitude_reading_standard_deviation|standard deviation value of frequency domain magnitude of body angular velocity signals
+frequency_domain_body_gyroscope_magnitude_reading_mean_frequency|mean frequency of frequency domain magnitude of body anglular velocity signals
+frequency_domain_body_gyroscope_jerk_magnitude_reading_mean|mean value of frequency domain magnitude of body anglular velocity jerk signals
+frequency_domain_body_gyroscope_jerk_magnitude_reading_standard_deviation|standard deviation value of frequency domain magnitude of body angular velocity jerk signals
+frequency_domain_body_gyroscope_jerk_magnitude_reading_mean_frequency|mean frequency of frequency domain magnitude of body anglular velocity jerk signals
+
+
 ## Variable Details
+
+Variable details 
 
 =================================================================================
 
