@@ -6,18 +6,18 @@
 Data transformation steps for this assignment is listed below:
 
 1. Raw dataframes created from raw data.
-   ***activity_labels**: Activity label data
-   ***features**: All feature variables
-   ***test**: Test data set
-   ***test_labels**: Dataframe with labels for test data 
-   ***test_subjects**: Dataframe with subject/volunteer identification for test data
-   ***train**: Training data set
-   ***train_labels**: Dataframe with labels for train data 
-   ***train_subjects**: Dataframe with subject/volunteer identification for train data
+   * **activity_labels**: Activity label data
+   * **features**: All feature variables
+   * **test**: Test data set
+   * **test_labels**: Dataframe with labels for test data 
+   * **test_subjects**: Dataframe with subject/volunteer identification for test data
+   * **train**: Training data set
+   * **train_labels**: Dataframe with labels for train data 
+   * **train_subjects**: Dataframe with subject/volunteer identification for train data
    
 2. Dataframes containing relevant test and train data together
-   ***test_1**: test, test_labels and test_subjects dataframes together
-   ***train_1**: train, train_labels and train_subjects dataframes together
+   * **test_1**: test, test_labels and test_subjects dataframes together
+   * **train_1**: train, train_labels and train_subjects dataframes together
    
 3. **mergeData**: Combined test_1 and train_1 datasets
 
